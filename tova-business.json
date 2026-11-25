@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "source": "tova-explore",
+  "generatedAt": "2026-11-25T02:14:39.272Z",
+  "slug": "gatehousecafe",
+  "name": "Gatehouse Cafe",
+  "city": "Christchurch",
+  "industry": {
+    "label": "Cafes",
+    "niche": "cafes",
+    "group": "Food & hospitality"
+  },
+  "contact": {
+    "phone": "+6433442052",
+    "email": "info@gatehousecafe.co.nz",
+    "address": "185a Kirk Rd, Christchurch"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/1845525625669708"
+  },
+  "about": {
+    "overview": "This page is used to test the proper operation of the nginx HTTP server after it has been installed. If you can read this page, it means that the web server installed at this site is working properly.",
+    "tagline": "Welcome to nginx on AlmaLinux!",
+    "services": [
+      "Website Administrator"
+    ]
+  },
+  "before": {
+    "url": "https://www.gatehousecafe.co.nz/",
+    "domain": "gatehousecafe.co.nz",
+    "score": 70,
+    "assessedAt": "2026-11-23T13:29:48.299Z",
+    "issues": [
+      {
+        "id": "unreachable",
+        "title": "Website did not load",
+        "evidence": "Request to https://www.gatehousecafe.co.nz/ failed (HTTP 200)."
+      }
+    ],
+    "screenshot": "screenshots/before-desktop.jpg"
+  },
+  "ours": {
+    "pagesUrl": "https://tova-studio.github.io/gatehouse-cafe/",
+    "repoUrl": "https://github.com/tova-studio/gatehouse-cafe",
+    "generator": "claude",
+    "screenshot": "screenshots/after-desktop.jpg",
+    "publishedAt": "2026-11-25T02:14:39.272Z"
+  }
+}
